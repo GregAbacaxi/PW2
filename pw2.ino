@@ -352,7 +352,7 @@ void escolherDesafio ();
     }
 
     bool desafioEncoder () {
-      v_aleatoria = random(1,3);
+      v_aleatoria = random(0,3);
       tempo_inicial = millis();
       
       switch (v_aleatoria){
